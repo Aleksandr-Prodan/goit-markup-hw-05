@@ -394,6 +394,53 @@ img {
 .container-footer-link:focus {
     background-color: #31D0AA;
 }
+.footer-container-three {
+    margin-left: 80px;
+}
+.footer-container-three p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-form {
+    display: flex;
+    align-items: center;
+}
+.footer-container-input {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 0 16px;
+    margin-right: 24px;
+    background: transparent;
+}
+.footer-container-btn {
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 .backdrop {
     position: fixed;
     top: 0;
